@@ -24,6 +24,17 @@ Some more benefits of ToDo List are :-
 
 **Client:** HTML, CSS , JavaScript ,ReactJS
 
+
+## Screenshots
+
+![App Screenshot](https://github.com/RiteshJha2000/ToDo-List/blob/main/ss/Screenshot%202022-07-13%20114510.png?raw=true)
+
+![App Screenshot](https://github.com/RiteshJha2000/ToDo-List/blob/main/ss/Screenshot%202022-07-13%20114528.png?raw=true)
+
+
+## Logo
+![Logo](https://github.com/RiteshJha2000/ToDo-List/blob/main/public/android-chrome-192x192.png?raw=true)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
