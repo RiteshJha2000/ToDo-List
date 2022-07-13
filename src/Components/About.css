@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Fruktur&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Fruktur&family=Merriweather:ital,wght@1,300&family=Ubuntu:wght@500&display=swap');
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('./img/ron-whitaker-mVuKCYMGZBM-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.background1{
+    background: rgba(0, 0, 0, 0.7) url("./img/jj-ying-7JX0-bfiuxQ-unsplash.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.first{
+    height: 100vh;
+    color: white;
+    /* background-color: orange; */
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-evenly; */
+    align-items: center;
+    padding:100px;
+    height: 100%;
+    
+
+}
+.btn1{
+    color: white;
+    padding: 2px 9px;
+    border: 2px solid rgb(241, 239, 239);
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+
+    background-color: transparent;
+}
+.btn1:hover{
+    background-color: grey;
+}
+#pic{
+    width: 150px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 20px;
+    /* margin: 0 100px; */
+}
+.header{
+   padding-right: 100px;
+   font-family: 'Ubuntu', sans-serif;
+}
+.line {
+    height: 100vh;
+    border-right: 2px solid #d5ded5;
+    -moz-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    transform: skew(-45deg);
+    margin-right: 250px;
+    transition: ease all .5s;
+
+}
+.developer{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 48vh;
+    margin-top: 95px;
+    font-family: Light 300 Italic;
+
+    color: white;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.developer ul li{
+    color: white;
+    font-weight:500;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: Light 300 Italic;
+}
+.info ul{
+    margin-left: 50px;
+    width: 200px;
+}
+.secondimg img{
+    width: 45px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5ded5;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contact h2{
+    margin: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.form input{
+    padding: 5px;
+    margin: 3px;
+    width: 40vw;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.form textarea{
+    padding: 5px;
+    margin: 3px;
+    width: 40vw;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.form button{
+    margin: auto;
+    width: 10vw;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.btn-dark:hover{
+    background-color: grey;
+}
+
+
+@media only screen and (max-Width:1200px){
+    .line{
+        margin-right: 0px;
+    }   
+    .developer{
+        margin-left: 94px;
+    }
+    .container1{
+        padding:50px;
+    }
+}
+@media only screen and (max-Width:1000px){
+    .line{
+        margin-right: 0px;
+        height: 898px;
+    }
+    .developer{
+        margin-top: auto;
+        margin-left: 0px; 
+    }
+    .header{
+        margin-bottom: auto;
+        margin-top: 61px;
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-Width:700px){
+    .line{
+        height: 100vh;
+        border-right: 2px solid rgb(238, 235, 235);
+        -moz-transform: skew(-90deg);
+        -webkit-transform: skew(-90deg);
+        transform: skew(-90deg);
+        margin-right: 0px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .developer{
+        border:solid white;
+        border-width: 2px 0 0 0;
+        padding-top: 187px;
+        margin-top: 20px;
+    }
+    .developer h1{
+        padding-bottom: 30px;
+    }
+    .first{
+        height: 135vh;
+        padding-bottom: 173px;
+    }
+    .form button{
+        width: 20vw;
+    }
+    .info{
+        flex-direction: column;
+    }
+    #pic{
+        width: 135px;
+        height: 165px;
+        margin: auto;
+        margin-bottom: 17px;
+    }
+
+}
+@media only screen and (max-Width:300px){
+    .first{
+        height: 160vh;
+    }
+    .developer h1{
+        padding-top: 33px;
+    }
+    .form button {
+        width: 26vw;
+    }
+    #pic{
+        width: 135px;
+        height: 165px;
+    }
+}
